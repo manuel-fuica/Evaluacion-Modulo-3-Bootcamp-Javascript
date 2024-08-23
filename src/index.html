@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluacion Final</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    </link>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid ">
+                        <a class="link-nav" href="#">SuperMarket</a>
+                        <ul class="nav justify-content-end align-items-center">
+                            <li class="nav-item">
+                                <a class="link-nav" aria-current="page" href="#">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link-nav" href="#">Ofertas</a>
+                            </li>
+                            <li class="nav-item link-nav">
+                                <a class="link-nav" href="" onclick="mostrarCarrito()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <img src="../assets/img/logo.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1 class="text-white text-center">Nuestros Productos</h1>
+                <table class="table text-white">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+                            <th>Comprar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaProductos">
+                    </tbody>
+                </table>
+                <button class="btn btn-warning" id="verCarrito" onclick="mostrarCarrito()">Mostrar carrito</button>
+                <button class="btn btn-warning" id="verCarrito" onclick="finalizarCompra()">Finalizar compra</button>
+            </div>
+        </div>
+        <div class="row mt-5 mb-3">
+            <div class="col">
+                <footer class="text-center">
+                    &copy; <strong><span>TODOS LOS DERECHOS RESERVADOS 2024</span></strong>
+                </footer>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>

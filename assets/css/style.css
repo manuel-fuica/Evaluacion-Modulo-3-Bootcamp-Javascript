@@ -1,0 +1,21 @@
+body{
+    background-color: #0D1117;
+    color: rgb(255, 255, 255);
+}
+
+.link-nav{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.link-nav:hover{
+    color: #F7BD40;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
